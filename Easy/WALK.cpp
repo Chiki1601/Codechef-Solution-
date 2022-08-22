@@ -25,3 +25,4 @@ int main() {
 		std::cout << *std::max_element(arr, arr + n) << "\n";
 	}
 	return 0;
+}
