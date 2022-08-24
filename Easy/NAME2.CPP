@@ -1,7 +1,7 @@
 /*
  * @author Pooja Anilkumar Patel (chiki1601)
- * github: http://www.github.com/schiki1601
- * Created on 7/24/20.
+ * github: http://www.github.com/chiki1601
+ * Created on 24/08/2022.
  * Problem link: https://www.codechef.com/problems/NAME2
  */
  
