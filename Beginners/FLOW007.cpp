@@ -1,22 +1,25 @@
 /*
 	Created by Pooja Anilkumar Patel on 09/10/2022.
-	https://www.codechef.com/problems/FLOW008
+	https://www.codechef.com/problems/FLOW007
 */
 
 #include <iostream>
+#include <algorithm>
 
 int main() {
 	std::ios_base::sync_with_stdio(false);
 	std::cin.tie(nullptr);
-	int t = 0;
+	int t;
 	std::cin >> t;
-	int n = 0;
+	int x;
 	while (t--) {
-		std::cin >> n;
-		if (n < 10)
-			std::cout << "What an obedient servant you are!\n";
-		else
-			std::cout << "-1\n";
+		int rev = 0;
+		std::cin >> x;
+		while (x) {
+			rev = rev * 10 + (x % 10);
+			x /= 10;
+		}
+		std::cout << rev << "\n";
 	}
 	return 0;
 }
