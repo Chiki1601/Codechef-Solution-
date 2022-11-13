@@ -1,9 +1,3 @@
-/*
- * @author Pooja Anilkumar Patel (chiki1601)
- * github: http://www.github.com/chiki1601
- * Created on 13/11/2022.
- * Problem link: https://www.codechef.com/problems/BUILDINGRACE
- */
 
 #include <iostream>
 using namespace std;
